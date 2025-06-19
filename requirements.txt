@@ -1,0 +1,7 @@
+tradingview_ta==3.3.0
+pandas==1.5.3
+requests==2.28.1
+aiogram==2.24
+telegram==0.0.1
+Telethon==1.25.0
+schedule==1.1.0
