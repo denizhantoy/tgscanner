@@ -9,7 +9,7 @@ from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQu
 from aiogram.utils.exceptions import MessageNotModified
 
 # --- Configuration --- #
-TOKEN = os.getenv('TELEGRAM_BOT_TOKEN', '5648816353:AAG34-IieyCzu0NIPR-LCpgJ2oZ-uC81JyU')
+TOKEN = os.getenv('TELEGRAM_BOT_TOKEN', '')
 ITEMS_PER_PAGE = 10
 TIMEFRAME_MAP = {
     "5m": Interval.INTERVAL_5_MINUTES,
